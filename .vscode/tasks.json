@@ -24,7 +24,7 @@
     ],
     "tasks": [
         {
-            "command": "dotnet restore --nologo --verbosity normal *.sln",
+            "command": "dotnet restore --interactive --nologo --verbosity normal *.sln",
             "group": "none",
             "label": "Restore packages",
             "options": {
