@@ -143,6 +143,8 @@ public class MyHttpProxy : HttpProxy<MyHttpProxyOptions>
 }
 ```
 ## Changes history
+**Version 6.0.0**
+- Changed version to a system based on .NET Core version supported.  
 **Version 1.0.0**
 - Include base class for api and web controllers, http proxies, action, authorization and exception handling filters.  
 - Feature to capture or create the correlation ID has been included in all web filters.  
